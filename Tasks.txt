@@ -1,0 +1,2 @@
+- fix issue of not loading images
+- new screenshot.png
