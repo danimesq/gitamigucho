@@ -1,22 +1,23 @@
 {
-  "name": "repokemon",
+  "name": "gitamigucho",
   "version": "1.0.0",
-  "description": "Showcase of GitHub repos with Pokémon names",
+  "description": "Showcase of GitHub repos with Tamigucho names",
   "keywords": [
+    "tamigucho",
     "pokemon",
     "github",
     "repositories",
     "repository",
     "repo"
   ],
-  "author": "Lim Chee Aun",
+  "author": "Daniella Mesquita",
   "license": "ISC",
   "engines": {
     "node": ">=12.4"
   },
   "scripts": {
-    "pokemon": "curl https://www.pokemon.com/us/api/pokedex/kalos | json > data/pokemon-list.json",
-    "repokemon": "node scripts/repokemon",
+    "tamigucho": "curl https://tamigucho.com/api/tamipedia/index.json | json > data/pokemon-list.json",
+    "gitamigucho": "node scripts/repokemon",
     "gemoji": "node scripts/gemoji.mjs",
     "min-repokemon": "node scripts/min-repokemon",
     "stats": "node scripts/stats",
@@ -27,7 +28,7 @@
     "sprite-ci": "if [ \"$(git show $(git branch --show-current):data/repokemon.json | json length)\" -ne \"$(cat data/repokemon.json | json length)\" ]; then npm run fix-images && npm run sprite; fi",
     "css-min": "cleancss -O2 mergeSemantically:on pokemon.css -o pokemon.min.css",
     "changes": "echo \"$(node scripts/changes)\n\n$(cat CHANGELOG.md)\" > CHANGELOG.md",
-    "build-ci": "npm run pokemon && npm run repokemon && npm run gemoji && npm run images-ci && npm run sprite-ci && npm run min-repokemon && npm run css-min && npm run changes",
+    "build-ci": "npm run tamigucho && npm run gitamigucho && npm run gemoji && npm run images-ci && npm run sprite-ci && npm run min-repokemon && npm run css-min && npm run changes",
     "start": "serve -l 1337"
   },
   "devDependencies": {

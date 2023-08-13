@@ -31,7 +31,7 @@ console.log(`Duplicate IDs in source data`, [...dupIDs]);
 
 let count = 0;
 const total = data.length;
-console.log('Total pokemons: ' + total);
+console.log('Total tamiguchos: ' + total);
 
 const done = function () {
   fs.writeFileSync('data/repokemon.json', JSON.stringify(data, null, '\t'));

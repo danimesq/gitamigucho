@@ -1,6 +1,6 @@
 {
-  "name": "Repokémon",
-  "short_name": "Repokémon",
+  "name": "Gitamigucho",
+  "short_name": "Gitamigucho",
   "icons": [{
         "src": "/repokemon/icons/pokeball.png",
         "sizes": "600x600",
@@ -10,7 +10,7 @@
         "sizes": "600x600",
         "type": "image/svg"
       }],
-  "start_url": "/repokemon/",
+  "start_url": "/gitamigucho/",
   "display": "standalone",
   "theme_color": "#DD2120",
   "background_color": "#DD2120"

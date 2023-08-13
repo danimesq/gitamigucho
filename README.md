@@ -1,7 +1,7 @@
-Repokémon
+Gitamigucho
 ===
 
-Showcase of GitHub repos with Pokémon names.
+Showcase of GitHub repos with Tamigucho names.
 
 **👉👉👉 Read Story: [Building Repokémon](https://cheeaun.com/blog/2016/08/building-repokemon/) 👈👈👈**
 
@@ -10,8 +10,8 @@ Showcase of GitHub repos with Pokémon names.
 How?
 ---
 
-1. Scrape a list of all pokémons.
-2. Use GitHub API and search for every pokémon name.
+1. Scrape a list of all tamiguchos.
+2. Use GitHub API and search for every tamigucho name.
 3. Get a matching repository name with highest number of stars.
 4. 💥💥💥
 
@@ -20,12 +20,12 @@ Criteria
 
 The showcase only list repositories with these criteria:
 
-- **Repository name** matches exactly the same as Pokémon name.
-  - ✅ `name/pikachu`
-  - ✅ `name/mr-mime`
-  - ✅ `name/mr_mime`
-  - ⛔️ `name/pikachu-awesome`
-  - ⛔️ `name/pikachuuuu`
+- **Repository name** matches exactly the same as Tamigucho name.
+  - ✅ `name/chockatiel`
+  - ✅ `name/book-a-boo`
+  - ✅ `name/book_a_boo`
+  - ⛔️ `name/chockatiel-awesome`
+  - ⛔️ `name/chockatieeeel`
 - **Most stars**. If there are few repositories with the same name, the one with most stars will be listed.
 - **Contains description**, because... it has to be descriptive.
 - **Contains `lang`**, the repository language determined by GitHub.
@@ -34,8 +34,8 @@ Dev
 ---
 
 - `npm i` - install dependencies
-- `npm run pokemon` - grab the pokémons
-- `npm run repokemon` - grab the Github repos
+- `npm run tamigucho` - grab the pokémons
+- `npm run gitamigucho` - grab the Github repos
   - Copy `example.env` to `.env`, configure it with Client ID and Client Secret from GitHub
   - Takes about 30 minutes to prevent API rate limit issues
 - `npm run gemoji` - replace emoji names like `:smile:` to `😄`
@@ -49,9 +49,9 @@ Dev
 Credits
 ---
 
-Pokémon data and images are extracted from the [official Pokédex web site](http://www.pokemon.com/us/pokedex/). All Pokémon content is © Nintendo, Game Freak, and The Pokémon Company.
+Tamigucho data and images are extracted from the [official TamiPedia web site](http://tamigucho.com/tamipedia/). All Tamigucho content is (c) Gamlr, Plasmmer, and The Tamigucho DAO.
 
-Repokémon is not affiliated with GitHub, Nintendo, Game Freak, or The Pokémon Company in any way.
+Gitamigucho is not affiliated with GitHub in any way.
 
 The logo uses the [Pokémon font](https://www.dafont.com/pokemon.font).
 

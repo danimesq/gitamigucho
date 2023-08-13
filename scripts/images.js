@@ -15,12 +15,12 @@ const download = function (d) {
     download(data[++i]);
   } else {
     console.log(
-      'GET assets.pokemon.com/assets/cms2/img/pokedex/detail/' + id + '.png',
+      'GET assets.tamigucho.com/assets/cms2/img/tamipedia/full/' + id + '.png',
     );
     http.get(
       {
-        hostname: 'assets.pokemon.com',
-        path: '/assets/cms2/img/pokedex/detail/' + id + '.png',
+        hostname: 'assets.tamigucho.com',
+        path: '/assets/cms2/img/tamipedia/full/' + id + '.png',
       },
       function (res) {
         let body = '';

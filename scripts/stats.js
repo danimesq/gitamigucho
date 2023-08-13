@@ -15,8 +15,8 @@ data.forEach(function (d) {
   d.repo ? countUnavailable++ : countAvailable++;
 });
 
-console.log('Total unavailable pokemon names (taken): ' + countUnavailable);
-console.log('Total available pokemon names (not taken): ' + countAvailable);
+console.log('Total unavailable tamigucho names (taken): ' + countUnavailable);
+console.log('Total available tamigucho names (not taken): ' + countAvailable);
 
 const topStarredRepos = data
   .filter(function (d) {
